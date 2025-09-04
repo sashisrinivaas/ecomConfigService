@@ -1,5 +1,5 @@
 global:
-  message : "Welcome to ecomerce config server
+  message : Welcome to ecomerce config server
 logging:
   level:
     root:INFO
