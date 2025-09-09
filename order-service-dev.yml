@@ -5,7 +5,7 @@ server:
 message: Hello from Dev!
 spring:
   datasource:
-     url: jdbc:h2:mem:order_master
+     url: jdbc:mysql://localhost:3306/order_master?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
      username: root
      password:
   jpa:
