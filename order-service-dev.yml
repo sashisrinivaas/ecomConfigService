@@ -7,7 +7,7 @@ spring:
   datasource:
      url: jdbc:mysql://localhost:3306/order_master?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
      username: root
-     password:
+     password: Netid$3776
   jpa:
     hibernate:
       ddl-auto: update
